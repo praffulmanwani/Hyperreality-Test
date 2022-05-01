@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+connexion = "*"
+pytest = "*"
+requests = "*"
+marshmallow = "*"
+sqlalchemy = "*"
+marshmallow_sqlalchemy = "*"
+gevent = "*"
+greenlet = {version = "*", platform_python_implementation="=='CPython'"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
